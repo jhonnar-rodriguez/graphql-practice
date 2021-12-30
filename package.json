@@ -21,7 +21,11 @@
     "Lint Staged"
   ],
   "author": "Jhonnar Rodriguez",
-  "license": "ISC",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jhonnar-rodriguez/graphql-practice"
+  },
   "dependencies": {
     "apollo-server-express": "^3.5.0",
     "express": "^4.17.2",
