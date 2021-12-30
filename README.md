@@ -4,7 +4,7 @@ Is a project to practice the mentioned technologies in conjunction with eslint, 
 
 ## Installation
 
-You can see the version of NodeJs [here](https://github.com/jhonnar-rodriguez/graphql-practice/.nvmrc)
+You can see the version of NodeJs [here](https://github.com/jhonnar-rodriguez/graphql-practice/blob/master/.nvmrc)
 
 ```bash
 npm install
