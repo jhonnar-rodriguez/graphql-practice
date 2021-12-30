@@ -1,6 +1,7 @@
 import express from 'express';
 import setUpApolloServer from './apollo-server';
 import routes from '../routes';
+import databaseConnect from '../config/typeorm';
 
 const { APP_PORT, APP_GRAPHQL_PATH = 'api' } = process.env;
 
@@ -17,6 +18,7 @@ const startServer = async () => {
   });
 };
 
+databaseConnect();
 startServer();
 
 export default startServer;
