@@ -4,10 +4,11 @@ import { Application } from 'express';
 import { buildSchema } from 'type-graphql';
 
 import PingResolver from '../resolvers/Ping';
+import ProductResolver from '../resolvers/products/ProductResolver';
 
 const setUpApolloServer = async (app: Application, path: string): Promise<void> => {
   const schema = await buildSchema({
-    resolvers: [PingResolver],
+    resolvers: [PingResolver, ProductResolver],
   });
 
   const server = new ApolloServer({
