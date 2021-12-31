@@ -13,11 +13,17 @@ npm run prepare
 
 ## Running Locally
 
-The next command will start the server in development mode, it also comes with nodemon so future changes will refresh the server.
+- Rename the .env.example file to .env and setup your variables (all are required)
+
+- Start the server in development mode with the following command, it also comes with nodemon so future changes will refresh the server.
 
 ```bash
 npm run dev
 ```
+
+- Once the server is in development mode, you can check the server status and go to the graphql studio to start playing around.
+  - Check server status: <http://localhost:{APP_PORT>}
+  - GraphQL Studio: <http://localhost:{APP_PORT}/{APP_GRAPHQL_PATH>}
 
 ## Contributing
 
